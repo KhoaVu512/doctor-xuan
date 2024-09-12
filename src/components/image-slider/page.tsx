@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useState } from 'react'
+import {  useState } from 'react'
 import Image from 'next/image'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -31,7 +31,7 @@ export default function Page() {
           }}
           thumbs={{
             swiper:
-              thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+              thumbsSwiper && !thumbsSwiper ? thumbsSwiper : null,
           }}
           modules={[Autoplay, FreeMode, Navigation, Thumbs]}
           className="h-full w-full rounded-lg"

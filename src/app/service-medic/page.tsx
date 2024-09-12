@@ -1,5 +1,6 @@
 import ButtonBook from '@/components/elements/button-book'
 import './style.css'
+import Image from 'next/image'
 function PageMedic () {
   return (
     <div className="service-container">

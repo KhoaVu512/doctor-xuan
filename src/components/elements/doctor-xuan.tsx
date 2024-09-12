@@ -1,5 +1,5 @@
 import ButtonBook from '@/components/elements/button-book'
-import { Divider } from '@nextui-org/divider'
+import Image from 'next/image'
 
 function DoctorXuan() {
   return (

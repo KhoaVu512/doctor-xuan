@@ -1,5 +1,4 @@
 'use client'
-import CardElement from '@/components/card-doctor/card'
 import './card-doctor-style.css'
 import EmblaCarousel from '@/components/card-doctor/embla-carousel'
 import { EmblaOptionsType } from 'embla-carousel'

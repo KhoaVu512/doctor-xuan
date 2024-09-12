@@ -1,4 +1,5 @@
 import ButtonBook from '@/components/elements/button-book'
+import Image from 'next/image'
 
 function IntroDoctor () {
   return (

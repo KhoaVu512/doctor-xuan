@@ -32,10 +32,10 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     src={ImageTest}
                     alt={'test hello'}
                     className=" h-full w-full object-cover items-center"
+                    width={500}
+                    height={500}
                   />
-                  <div>
-                    Hello
-                  </div>
+                  <div>Hello</div>
                 </div>
               </div>
             </div>
